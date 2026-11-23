@@ -2,7 +2,7 @@
 
 A class-based, layered SystemVerilog testbench (generator → driver → monitor → scoreboard, connected with mailboxes) that verifies a gate-level half adder.
 
-Originally written on EDA Playground: <https://edaplayground.com/x/3_aZ>
+
 
 ## Architecture
 
@@ -64,7 +64,7 @@ make xcelium   # Cadence Xcelium
 make clean
 ```
 
-**On EDA Playground:** paste `rtl/half_adder.sv` into the *design* pane and the `tb/` files into the *testbench* pane (top file `testbench.sv`), choose SystemVerilog/Verilog with no UVM, select a simulator such as VCS, and tick *Open EPWave after run* to see the waveform.
+
 
 ### Expected output
 
