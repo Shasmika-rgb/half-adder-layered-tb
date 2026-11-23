@@ -1,0 +1,21 @@
+# Simulation outputs
+*.vcd
+*.vpd
+*.wlf
+*.log
+*.history
+transcript
+
+# VCS
+simv
+simv.daidir/
+csrc/
+ucli.key
+vc_hdrs.h
+
+# Questa / ModelSim
+work/
+
+# Xcelium
+xcelium.d/
+xrun.*
